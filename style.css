@@ -38,6 +38,7 @@
 .section-title {
   font-size: 30px;
   color: #181818;
+  text-align: center;
 }
 
 /* header styles */
@@ -209,4 +210,66 @@ header nav ul li button {
   border: 1px solid #181818;
   padding: 5px;
   border-radius: 5px;
+}
+
+#whatIDo {
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+}
+
+#whatIDo .content-wrapper {
+  width: 1140px;
+  height: 100%;
+  /* background-color: yellow; */
+  margin: 0 auto;
+}
+
+#whatIDo .content-wrapper > h3 {
+  padding-top: 80px;
+}
+
+#whatIDo .content-wrapper > p {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  color: #757575;
+  margin-top: 20px;
+}
+
+#whatIDo .content-wrapper .cards {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+#whatIDo .content-wrapper .cards .card {
+  width: 25%;
+  height: fit-content;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.145);
+}
+
+#whatIDo .content-wrapper .cards .card img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+#whatIDo .content-wrapper .cards .card h3 {
+  margin-top: 50px;
+  color: #181818;
+  font-size: 23px;
+}
+
+#whatIDo .content-wrapper .cards .card p {
+  margin-top: 20px;
+  width: 80%;
+  color: #757575;
+  font-size: 18px;
 }
