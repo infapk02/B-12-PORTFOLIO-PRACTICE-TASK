@@ -212,6 +212,8 @@ header nav ul li button {
   border-radius: 5px;
 }
 
+/* what i do section styles */
+
 #whatIDo {
   width: 100%;
   height: 100vh;
@@ -272,4 +274,82 @@ header nav ul li button {
   width: 80%;
   color: #757575;
   font-size: 18px;
+}
+
+/* summary section styles */
+#summary {
+  width: 100%;
+  height: fit-content;
+  padding: 50px 0 90px 0;
+}
+
+#summary .content-wrapper {
+  width: 1140px;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#summary .content-wrapper .educationNexperience-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 70px;
+}
+
+#summary .content-wrapper .educationNexperience-container .educations {
+  width: 50%;
+  height: fit-content;
+}
+
+#summary .content-wrapper .educationNexperience-container .e-title {
+  font-size: 24px;
+  color: #181818;
+}
+
+#summary .content-wrapper .educationNexperience-container .cards {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+#summary .content-wrapper .educationNexperience-container .cards .card {
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #75757522;
+}
+
+#summary .content-wrapper .educationNexperience-container .cards .card h2 {
+  font-size: 20px;
+  color: #181818;
+}
+
+#summary .content-wrapper .educationNexperience-container .cards .card h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #757575;
+}
+
+#summary .content-wrapper .educationNexperience-container .cards .card p {
+  font-size: 18px;
+  color: #757575;
+  margin-top: 15px;
+}
+
+#summary .content-wrapper .educationNexperience-container .experience {
+  width: 50%;
+  text-align: right;
+}
+
+#summary .content-wrapper button {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: fit-content;
 }
