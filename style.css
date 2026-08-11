@@ -353,3 +353,75 @@ header nav ul li button {
   margin-top: 30px;
   width: fit-content;
 }
+
+/* footer styles */
+footer {
+  width: 100%;
+  height: fit-content;
+  padding: 100px 0;
+  background-color: #fff8f3;
+}
+
+footer .content-wrapper {
+  width: 1140px;
+  height: fit-content;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 50px;
+}
+
+footer .content-wrapper .socials {
+  width: 50%;
+  height: fit-content;
+}
+
+footer .content-wrapper h3 {
+  font-size: 24px;
+  color: #181818;
+  margin-bottom: 40px;
+}
+
+footer .content-wrapper p {
+  color: #757575;
+  margin: 5px 0;
+}
+
+footer .content-wrapper .socials .image-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+footer .content-wrapper .form {
+  width: 50%;
+  height: fit-content;
+}
+
+footer .content-wrapper .form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+footer .content-wrapper .form form input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: #757575;
+  font-size: 16px;
+}
+
+footer .content-wrapper .form form textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: #757575;
+  font-size: 16px;
+}
